@@ -1,0 +1,152 @@
+body {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    width: 70%;
+    display: inline-block;
+}
+.container {
+    width: 100%;
+}
+
+input[type=number] {
+    float: right;
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+label {
+    float: right;
+    width: 25%;
+    margin-top: 6px;
+    padding: 12px 12px 12px 0;
+}
+
+h4 {
+    text-align: center;
+    margin: 10px 0;
+    display: inline-block;
+    color: blueviolet;
+
+}
+
+button {
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    color: black;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#buttonsGroup {
+    margin: 10px 0 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.submitButton {
+    margin: 0 2px;
+    display: inline-block;
+}
+button:active{
+    background:olive;
+}
+
+#resultContiner{
+    width: 100%;
+
+}
+
+#image{
+    float: left;
+    width: 25%;
+    margin-left: 0;
+}
+
+hr {
+    border: 10px solid rgb(129, 215, 255);
+    border-radius: 5px;
+    width: 200px;
+  }
+
+#lines{
+    width: 30%;
+    
+    display: inline-block;
+  
+}
+#unlimitedLine{
+    margin-top: 25px;
+}
+
+
+#lifeTimeLine{
+    margin-top: 25px;
+}
+
+#result{
+    height: 100%;
+    width:30%;
+    display: inline-block;
+    text-align: justify;
+    padding: auto;
+    
+}
+
+#unlimited{   
+    margin-bottom: 32px;
+}
+
+#brandName {
+    text-align: end;
+    margin-bottom: 10px;
+    color: rgb(179, 179, 179);
+
+}
+
+#brand {
+    margin-bottom: 27px;
+
+}
+
+.barndElements{
+    display: none;
+}
+
+.topHr {
+    border: 10px solid rgb(0, 174, 255);
+    border-radius: 10px;
+    width: 200px;
+}
+
+.midHr {
+    border: 10px solid rgb(110, 209, 255);
+    border-radius: 10px;
+    width: 150px;
+}
+
+.lessHr {
+    border: 10px solid rgb(200, 238, 255);
+    border-radius: 10px;
+    width: 100px;
+}

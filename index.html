@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Financial Calculator</title>
+</head>
+
+<body>
+    
+    <form action="index.html" method="post">
+        <h4>Calculate Your Rewards</h4>
+        <div class="container">
+            <input id="vendor" type="number" placeholder="Enter a number" name="vendor" required>
+            <label for="vendor">Vendor/Bills</label>
+        </div>
+        <div class="container">
+            <input id="media" type="number" placeholder="Enter a number" name="media" required>
+            <label for="media">Media/Ad Spend</label>
+        </div>
+        <div class="container">
+            <input id="corp" type="number" placeholder="Enter a number" name="corp" required>
+            <label for="corp">Corp.Spend</label>
+        </div>
+        <div class="container">
+            <input id="project" type="number" placeholder="Enter a number" name="project" required>
+            <label for="project">Team Project</label>
+        </div>
+        <h4>Compare Your Rewards</h4>
+        <div id="buttonsGroup">
+            <div class="submitButton">
+                <button type="submit" id="brex" name="brex">Brex</button>
+            </div>
+            <div class="submitButton">
+                <button type="submit" id="stripe" name="stripe">stripe</button>
+            </div>
+            <div class="submitButton">
+                <button type="submit" id="amex" name="amex">Amex</button>
+            </div>
+        </div>
+    </form>
+    <div id="resultContiner">
+        
+        <div id="image">
+            <p class="barndElements" id="brandName"></p>
+            <img src="images/Untitled.png" alt="">
+        </div>
+        <div id="lines">
+                <hr class="barndElements" id="brandLine">
+                <hr id="unlimitedLine">
+                <hr id="lifeTimeLine">
+        </div>
+        <div id="result">
+            <p class="barndElements" id="brand"></p>
+            <p  id="unlimited"></p>
+            <p  id="lifeTime"></p>
+        </div>
+    </div>
+
+</body>
+
+<script src="index.js"></script>
+
+</html>
